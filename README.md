@@ -1,6 +1,6 @@
 # mkhere
 
-Comand line utility to create files based on predefined templates
+Command line utility used to create files based on pre-defined templates
 
 ### Usage
 
@@ -12,4 +12,4 @@ Comand line utility to create files based on predefined templates
 
 #### NOTE
 
-This should be concidered as "work in progress" until this notice removed.
+This should be considered as "work in progress" until this notice removed.
