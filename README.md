@@ -6,7 +6,7 @@ Command line utility used to create files based on pre-defined templates
 
 ### Usage
 
-`mkhere list` - List all templates in /home/sasha/Templates
+`mkhere list` - List all templates in _\<USER_HOME_DIR\>/Templates/_
 
 `mkhere help` - Show usage/help
 
