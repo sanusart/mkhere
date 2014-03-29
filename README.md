@@ -8,6 +8,8 @@ Comand line utility to create files based on predefined templates
 
 `mkhere help` - Show usage/help
 
-`mkhere tplname.html newname` - Create new file newname.html based on /home/sasha/Templates/tplname.html in current dir$
+`mkhere tplname.html newname` - Create new file _newname.html_ based on _\<USER_HOME_DIR\>/Templates/tplname.html_ in current  working directory
 
+#### NOTE
 
+This should be concidered as "work in progress" until this notice removed.
