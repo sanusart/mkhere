@@ -30,6 +30,13 @@
     ],
     "preferGlobal": "true",
     "bin": {
-        "mkhere" : "lib/mkhere.js"
+        "mkhere": "lib/mkhere.js"
+    },
+    "dependencies": {
+        "colors": "^0.6.2",
+        "path": "^0.4.9"
+    },
+    "engines": {
+        "node": "*"
     }
 }
