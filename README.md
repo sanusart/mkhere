@@ -2,6 +2,8 @@
 
 Command line utility used to create files based on pre-defined templates
 
+[![NPM](https://nodei.co/npm/mkhere.png)](https://nodei.co/npm/mkhere/)
+
 ### Usage
 
 `mkhere list` - List all templates in /home/sasha/Templates
