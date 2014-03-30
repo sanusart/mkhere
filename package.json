@@ -33,10 +33,10 @@
         "mkhere": "lib/mkhere.js"
     },
     "dependencies": {
-        "colors": "^0.6.2",
-        "path": "^0.4.9"
+        "colors": "~0.6.2",
+        "path": "~0.4.9"
     },
     "engines": {
-        "node": "*"
+        "node": ">=0.10"
     }
 }
