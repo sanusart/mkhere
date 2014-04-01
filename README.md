@@ -6,12 +6,12 @@ Command line utility used to create files based on pre-defined templates
 
 ### Usage
 
-`mkhere list` - List all templates in _\<USER_HOME_DIR\>/Templates/_
+`mkhere list` - List all templates in _USER_HOME_DIR/.templates/_
 
 `mkhere help` - Show usage/help
 
-`mkhere tplname.html newname` - Create new file _newname.html_ based on _\<USER_HOME_DIR\>/Templates/tplname.html_ in current  working directory
+`mkhere tplname.html newname` - Create new file _newname.html_ based on _USER_HOME_DIR/Templates/tplname.html_ in current  working directory
 
-#### NOTE
+### Auto-completion
 
-This should be considered as "work in progress" until this notice removed.
+Run: `mkhere --completion >> ~/.mkhere.completion.sh && echo 'source ~/.mkhere.completion.sh' >> .bash_profile` In order to enable auto-completion in your __bash__ terminal, or `echo '. <(./githubber --completion)' >> .zshrc` if you're using __zsh__
