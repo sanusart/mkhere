@@ -1,6 +1,6 @@
 {
     "name": "mkhere",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Make files based on template",
     "main": "lib/mkhere.js",
     "scripts": {
