@@ -14,4 +14,4 @@ Command line utility used to create files based on pre-defined templates
 
 ### Auto-completion
 
-Run: `mkhere --completion >> ~/.mkhere.completion.sh && echo 'source ~/.mkhere.completion.sh' >> .bash_profile` In order to enable auto-completion in your __bash__ terminal, or `echo '. <(./githubber --completion)' >> .zshrc` if you're using __zsh__
+Run: `mkhere --completion >> ~/.mkhere.completion.sh && echo 'source ~/.mkhere.completion.sh' >> .bashrc` In order to enable auto-completion in your __bash__ terminal, or `echo '. <(./githubber --completion)' >> .zshrc` if you're using __zsh__
