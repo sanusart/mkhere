@@ -6,12 +6,22 @@ Command line utility used to create files based on pre-defined templates
 
 ### Usage
 
-`mkhere list` - List all templates in _USER_HOME_DIR/.templates/_
+    --------------------------------------------------
+    mkhere: Create files based on predefined templates
+    --------------------------------------------------
 
-`mkhere help` - Show usage/help
+    Run: mkhere init
+             To create .templates directory within your home containing sample templates.
+    Run: mkhere list
+             To list all templates in /home/sasha/.templates
+    Run: mkhere tplname.html newname
+             This will create new file newname.html based on /home/sasha/.templates/tplname.html in current directory
+    Run: mkhere html.html ~/Desktop/sa
+             This will create new file sa.html based on /home/sasha/.templates/html.html on the desktop
 
-`mkhere tplname.html newname` - Create new file _newname.html_ based on _USER_HOME_DIR/Templates/tplname.html_ in current  working directory
+    ------------------Auto-completion-----------------
 
-### Auto-completion
-
-Run: `mkhere --completion >> ~/.mkhere.completion.sh && echo 'source ~/.mkhere.completion.sh' >> .bashrc` In order to enable auto-completion in your __bash__ terminal, or `echo '. <(./githubber --completion)' >> .zshrc` if you're using __zsh__
+    Run: mkhere --completion >> ~/.mkhere.completion.sh && echo 'source ~/.mkhere.completion.sh' >> ~/.bashrc
+            In order to enable auto-completion in your `BASH` terminal
+    Or: echo '. <(./githubber --completion)' >> .zshrc
+            if you're using `ZSH`
