@@ -1,10 +1,10 @@
 {
   "name": "mkhere",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Make files based on template",
   "main": "lib/mkhere.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "keywords": [
     "create files",
@@ -39,5 +39,9 @@
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
   }
 }
