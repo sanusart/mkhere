@@ -5,7 +5,7 @@ Command line utility used to create files based on pre-defined templates
 [![NPM](https://nodei.co/npm/mkhere.png)](https://nodei.co/npm/mkhere/)
 
 
-## Installation
+## installation
 
 Install using NPM `$ (sudo) npm install --global mkhere`
 
@@ -19,15 +19,19 @@ Install using NPM `$ (sudo) npm install --global mkhere`
 
 > Run: `mkhere list`
 
-#### Create new file
+#### Create new file in current directory
 
 > Run: `mkhere tplname.html newname`
 
 Will create _newname.html_ based on _~/.templates/tplname.html_ in current directory
 
+#### Create new file in different directory
+
 > Run: `mkhere html.html ~/Desktop/sa`
 
 Will create _sa.html_ based on _~/.templates/html.html_ on Desktop
+
+#### Create new DOT file in current directory
 
 > Run: `mkhere editorconfig.editorconfig ""`
 
