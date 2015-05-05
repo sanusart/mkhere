@@ -4,15 +4,20 @@ Command line utility used to create files based on pre-defined templates
 
 [![NPM](https://nodei.co/npm/mkhere.png)](https://nodei.co/npm/mkhere/)
 
+
+## installation
+
+Install using NPM `$ (sudo) npm install --global mkhere`
+
 ## Usage
 
 #### Initiate `~/.templates` directory within your home folder containing sample templates
 
-`mkhere init`
+> Run: `mkhere init`
 
 #### List all templates in ~/.templates
 
-`mkhere list`
+> Run: `mkhere list`
 
 #### Create new file
 
